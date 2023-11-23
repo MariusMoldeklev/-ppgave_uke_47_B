@@ -1,0 +1,33 @@
+body {
+    background-image: radial-gradient(red,blue,green);
+}
+
+.task_three_img {
+    width: 40%;
+    height: 30%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    transition: all 0.4s ease;
+}
+
+.task_three_img_big {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 60%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    transition: all 0.4s ease;
+}
+
+.img {
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
